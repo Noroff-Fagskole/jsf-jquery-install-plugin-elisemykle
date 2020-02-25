@@ -1,0 +1,22 @@
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.alarmlabel {
+    display: inline-block;
+    padding: 0.4em;
+}
+.alarmlabel::after {
+    content: ":";
+}
+
+.alarminput {
+    font: inherit;
+    font-family: monospace;
+    padding: 0.4em 0.8em;
+    width: 5em;
+    color: greenyellow;
+    background-color: black;
+    border: none;
+}
